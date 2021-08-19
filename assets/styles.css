@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+}
+
+h1 {
+    display: block;
+    margin: 128px 277px 12px 16px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 41px;
+    letter-spacing: 0.41px;
+}
+
+p {
+    display: block;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.41px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 16px;
+    margin-bottom: 121px;
+}
+
+input {
+    display: block;
+    margin: 12px auto;
+    width: 340px;
+    height: 46px;
+    background-color: #F2F2F7;
+    border: none;
+    border-radius: 6px;
+}
+
+input::placeholder {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: start;
+    letter-spacing: -0.41px;
+    color: #929292;
+    padding-left: 14px;
+}
+
+input:focus {
+    outline: none !important;
+    box-shadow: 0px 0 5px #cf24aa;
+}
+
+.forgot-password {
+    display: block;
+    margin: 16px 30px 20px 0px;
+    text-align: end;
+    text-decoration: none;
+    color: #007AFF;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.41px;
+}
+
+button {
+    display: block;
+    width: 320px;
+    height: 45px;
+    margin: 0 auto;
+    border: none;
+    background: rgba(0, 0, 0, 0.94);
+    border-radius: 10px;
+    color: #FFFFFF;
+    box-shadow: 1px 0 5px #000000;
+    font-weight: 500;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: -0.41px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.signup {
+    display: block;
+    margin: 204px auto 100px auto;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.51);
+}
+
+strong {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.41px;
+    color: #007AFF;
+}
